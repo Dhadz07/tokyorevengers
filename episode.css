@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: #080808; 
+    color: #ffffff; 
+    padding: 1rem;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif
+}
+header h1 {
+    color: #ff0000;
+    font-family: sans-serif
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+@media (max-width: 767px) {
+    nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #343a40; /* Dark background color */
+    }
+
+    nav.show {
+        display: flex;
+    }
+
+    nav li {
+        margin: 10px;
+        text-align: center;
+    }
+}
+
+.navbar-toggler {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.navbar-toggler-icon {
+    width: 30px;
+    height: 5px;
+    background-color: #ffffff;
+    display: block;
+    margin: 2px auto;
+}
+
+@media (max-width: 767px) {
+    .navbar-toggler {
+        display: block;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+  
+  }
+  
+  h1 {
+    font-size: 40px;
+    padding: 5 px;
+    margin: 20px;
+    text-align: left;
+    color: red;
+    font-family: fantasy;
+  }
+  
+  h2 {
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: times new roman;
+  }
+  
+  h4 {
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  h3 {
+    color: whitesmoke;
+     font-family: 'Times New Roman', Times, serif;
+  }
+  
+  li {
+    color: white;
+  }
+  
+  a {
+    font-size: 20px;
+    color: black;
+    text-decoration: black;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+  
+  }
+  
+  header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 1.0);
+  }
+  
+  div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .character-card {
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+  
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .frame {
+    width: auto;
+    height: auto;
+  }
+  p {
+    padding: 20px;
+    margin-right: 20px;
+    color: white;
+    font-family: times new roman;
+  }
+  
+  img {
+    padding: 50px;
+    width: 50%;
+    height: 35%;
+    border-radius: 10px;
+    padding: 50px;
+  }
+  
+  section#updates {
+    margin: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    text-shadow: 24px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .episode-link {
+    display: block;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    padding: 30px;
+    background-color: bisque;
+    border-radius: 5px;
+    line-height: 30px;
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  .characters {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .container-Episode {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .character-card {
+    background-color: darkgray;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .character img {
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+    border-radius:10px;
+    object-fit: cover;
+  }
+  
+  .container img {
+    height: 240px;
+    width: 225px;
+    padding: 30px;
+  
+  }
+  
+  .episodes {
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
